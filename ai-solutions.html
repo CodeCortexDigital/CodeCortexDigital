@@ -9,229 +9,38 @@
   <meta name="description" content="Professional AI and Machine Learning solutions in Pakistan. Code Cortex builds intelligent systems, predictive analytics, chatbots, and automation solutions for businesses.">
   <meta name="keywords" content="AI solutions Pakistan, machine learning development, artificial intelligence, predictive analytics, AI chatbots, automation solutions, data science Pakistan">
   <meta name="author" content="Code Cortex (SMC-Pvt.) Ltd.">
-  <link rel="canonical" href="https://codecortexdigital.github.io/codecortexdigital/ai-solutions.html">
+  <link rel="canonical" href="https://codecortexdigital.github.io/com/ai-solutions.html">
   
   <!-- Open Graph -->
-  <meta property="og:title" content="AI & Machine Learning Solutions Pakistan | Code Cortex">
-  <meta property="og:description" content="Professional AI development including machine learning, predictive analytics, intelligent chatbots, and business automation solutions.">
+  <meta property="og:title" content="AI & Machine Learning Solutions Pakistan | Code Cortex - AI Development">
+  <meta property="og:description" content="Professional AI and Machine Learning solutions including predictive analytics, chatbots, and automation for businesses in Pakistan.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://codecortexdigital.github.io/codecortexdigital/ai-solutions.html">
-  <meta property="og:image" content="https://codecortexdigital.github.io/codecortexdigital/code_logo.png">
+  <meta property="og:url" content="https://codecortexdigital.github.io/com/ai-solutions.html">
+  <meta property="og:image" content="https://codecortexdigital.github.io/com/code_logo.png">
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="AI & Machine Learning Solutions | Code Cortex">
-  <meta name="twitter:description" content="Intelligent AI solutions including machine learning, predictive analytics, and automation for businesses.">
-  
-  <!-- Preload Resources -->
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style">
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" as="style">
+  <meta name="twitter:description" content="AI development, machine learning models, and intelligent automation solutions.">
   
   <!-- Load CSS Files -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="style.css">
   
   <!-- Favicon -->
   <link rel="icon" href="code_logo.png" type="image/x-icon">
   <link rel="apple-touch-icon" href="code_logo.png">
-  
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "AI & Machine Learning Solutions",
-    "provider": {
-      "@type": "Organization",
-      "name": "Code Cortex (SMC-Pvt.) Ltd.",
-      "url": "https://codecortexdigital.github.io/codecortexdigital/"
-    },
-    "description": "Professional AI and Machine Learning services including predictive analytics, intelligent chatbots, automation solutions, and custom ML model development.",
-    "serviceType": "Artificial Intelligence",
-    "areaServed": "Pakistan",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "AI & Machine Learning Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "AI Chatbot Development"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Predictive Analytics"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Machine Learning Models"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Business Automation"
-          }
-        }
-      ]
-    }
-  }
-  </script>
 
   <style>
-    :root {
-      --bg: #1c1e26;
-      --panel: #2f3243;
-      --accent: #ffe27d;
-      --muted: #ccc;
-      --cta: #ff6b6b;
-      --text-primary: #ffffff;
-      --ai-primary: #00d4ff;
-      --ai-secondary: #7b61ff;
-    }
-    
-    [data-theme="light"] {
-      --bg: #ffffff;
-      --panel: #f5f5f7;
-      --accent: #ffb84d;
-      --muted: #333;
-      --cta: #ff4b4b;
-      --text-primary: #000000;
-      --ai-primary: #008cff;
-      --ai-secondary: #5a4dff;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 80px;
-    }
-    
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background-color: var(--bg);
-      color: var(--muted);
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    /* Header */
-    header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      background: rgba(43, 46, 61, 0.95);
-      backdrop-filter: blur(10px);
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-      transition: all 0.3s ease;
-    }
-    
-    .header-left {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-    
-    .logo-link {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      text-decoration: none;
-      color: inherit;
-    }
-    
-    .logo-img {
-      width: 55px;
-      height: 55px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid var(--accent);
-      transition: transform 0.3s ease;
-    }
-    
-    .logo-img:hover {
-      transform: rotate(5deg) scale(1.05);
-    }
-    
-    .header-left h1 {
-      color: var(--text-primary);
-      font-size: 1.5rem;
-      font-weight: 700;
-      transition: color 0.3s ease;
-    }
-    
-    .logo-link:hover h1 {
-      color: var(--accent);
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-    
-    nav a {
-      color: var(--text-primary);
-      text-decoration: none;
-      font-weight: 600;
-      padding: 8px 16px;
-      border-radius: 6px;
-      transition: all 0.3s ease;
-    }
-    
-    nav a:hover,
-    nav a:focus {
-      color: var(--accent);
-      background: rgba(255, 255, 255, 0.1);
-    }
-    
-    .back-btn {
-      padding: 10px 20px;
-      border-radius: 8px;
-      background: var(--accent);
-      color: #000;
-      font-weight: 600;
-      border: none;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      text-decoration: none;
-      display: inline-block;
-    }
-    
-    .back-btn:hover,
-    .back-btn:focus {
-      background: #ffdd55;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-    }
-
-    /* Hero Section */
-    .hero {
+    /* AI Solutions-specific styles */
+    .ai-hero {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
-      min-height: 100vh;
+      min-height: 80vh;
       background: linear-gradient(135deg, var(--bg) 0%, #1a1c23 100%);
       position: relative;
       padding: 0 2rem;
@@ -239,7 +48,7 @@
       overflow: hidden;
     }
     
-    .hero::before {
+    .ai-hero::before {
       content: '';
       position: absolute;
       top: 0;
@@ -252,12 +61,7 @@
       animation: pulse 8s ease-in-out infinite;
     }
     
-    @keyframes pulse {
-      0%, 100% { opacity: 0.5; }
-      50% { opacity: 0.8; }
-    }
-    
-    .hero h1 {
+    .ai-hero h1 {
       font-size: clamp(2.5rem, 5vw, 4rem);
       background: linear-gradient(90deg, var(--ai-primary), var(--ai-secondary));
       -webkit-background-clip: text;
@@ -269,7 +73,7 @@
       z-index: 2;
     }
     
-    .hero p {
+    .ai-hero p {
       font-size: clamp(1.1rem, 2vw, 1.3rem);
       color: var(--muted);
       margin-bottom: 2.5rem;
@@ -304,60 +108,22 @@
       border-color: var(--ai-primary);
     }
 
-    /* Services Section */
-    section {
-      padding: 5rem 2rem;
-      text-align: center;
-    }
-    
-    section:nth-child(even) {
+    /* AI Cards */
+    .ai-card {
       background: var(--panel);
-    }
-    
-    h2 {
-      margin-bottom: 3rem;
-      font-size: clamp(1.8rem, 4vw, 2.5rem);
-      color: var(--accent);
-      position: relative;
-      display: inline-block;
-    }
-    
-    h2::after {
-      content: '';
-      position: absolute;
-      bottom: -10px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 60px;
-      height: 3px;
-      background: var(--ai-primary);
-      border-radius: 2px;
-    }
-
-    /* Cards */
-    .cards-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    
-    .card {
-      background-color: var(--panel);
       padding: 2.5rem 2rem;
       border-radius: 15px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
       transition: all 0.3s ease;
       border: 1px solid rgba(255, 255, 255, 0.1);
-      display: flex;
-      flex-direction: column;
-      height: 100%;
       position: relative;
       overflow: hidden;
+      text-align: center;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
     }
     
-    .card::before {
+    .ai-card::before {
       content: '';
       position: absolute;
       top: 0;
@@ -369,72 +135,66 @@
       transition: transform 0.3s ease;
     }
     
-    .card:hover::before {
+    .ai-card:hover::before {
       transform: scaleX(1);
     }
     
-    .card:hover {
+    .ai-card:hover {
       transform: translateY(-10px);
-      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
     }
     
-    .card h3 {
-      margin-bottom: 1rem;
-      color: var(--ai-primary);
-      font-size: 1.4rem;
-    }
-    
-    .card p {
-      color: var(--muted);
-      flex-grow: 1;
-      margin-bottom: 1.5rem;
-    }
-    
-    .card i {
+    .ai-card i {
       font-size: 3rem;
-      margin-bottom: 1.5rem;
       color: var(--ai-primary);
+      margin-bottom: 1.5rem;
       transition: all 0.3s ease;
     }
     
-    .card:hover i {
+    .ai-card:hover i {
       transform: scale(1.2) rotate(5deg);
       color: var(--ai-secondary);
     }
+    
+    .ai-card h3 {
+      color: var(--ai-primary);
+      margin-bottom: 1rem;
+    }
 
-    /* Process Section */
-    .process-steps {
+    /* Tech Stack */
+    .ai-tech-stack {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 2rem;
-      max-width: 1000px;
-      margin: 0 auto;
+      gap: 1rem;
+      margin-top: 2rem;
     }
     
-    .process-step {
-      flex: 1;
-      min-width: 250px;
-      text-align: center;
-      padding: 2rem;
-    }
-    
-    .step-number {
-      width: 60px;
-      height: 60px;
-      background: var(--ai-primary);
-      color: white;
-      border-radius: 50%;
+    .ai-tech-item {
+      background: var(--panel);
+      padding: 12px 24px;
+      border-radius: 25px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-weight: 600;
+      transition: all 0.3s ease;
       display: flex;
       align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin: 0 auto 1rem;
+      gap: 8px;
+    }
+    
+    .ai-tech-item:hover {
+      transform: translateY(-3px);
+      background: var(--ai-primary);
+      color: white;
+    }
+
+    /* Process Steps */
+    .process-step .step-number {
+      background: var(--ai-primary);
     }
 
     /* CTA Section */
-    .cta-section {
+    .ai-cta {
       background: linear-gradient(135deg, var(--ai-primary) 0%, var(--ai-secondary) 100%);
       color: white;
       padding: 4rem 2rem;
@@ -443,215 +203,42 @@
       max-width: 800px;
     }
     
-    .cta-section h3 {
+    .ai-cta h3 {
       font-size: 2rem;
       margin-bottom: 1rem;
     }
     
-    .cta-button {
+    .ai-cta .cta-button {
       background: white;
       color: var(--ai-primary);
-      padding: 15px 30px;
-      border: none;
-      border-radius: 30px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      margin-top: 1rem;
-    }
-    
-    .cta-button:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     }
 
-    /* Footer Styles */
-    footer { 
-      background-color: #2b2e3d; 
-      padding: 3rem 2rem; 
-      text-align: center; 
-      color: #aaa; 
-    }
-    
-    .footer-content {
-      max-width: 1200px;
-      margin: 0 auto;
+    /* AI Use Cases */
+    .ai-use-cases {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 40px;
-      margin-bottom: 40px;
-      text-align: left;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
     }
     
-    .footer-column h3 {
-      color: var(--accent);
-      margin-bottom: 25px;
-      position: relative;
-      padding-bottom: 10px;
+    .use-case {
+      text-align: center;
+      padding: 2rem;
+      background: var(--panel);
+      border-radius: 15px;
+      transition: all 0.3s ease;
     }
     
-    .footer-column h3::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 50px;
-      height: 3px;
-      background: var(--cta);
+    .use-case:hover {
+      transform: translateY(-5px);
+      background: rgba(0, 212, 255, 0.1);
     }
     
-    .footer-links {
-      list-style: none;
-    }
-    
-    .footer-links li {
-      margin-bottom: 12px;
-    }
-    
-    .footer-links a {
-      color: var(--muted);
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-    
-    .footer-links a:hover {
-      color: var(--accent);
-    }
-    
-    .contact-method {
+    .use-case i {
+      font-size: 2.5rem;
+      color: var(--ai-primary);
       margin-bottom: 1rem;
-      display: flex;
-      align-items: flex-start;
-    }
-    
-    .contact-method i {
-      color: var(--cta);
-      margin-right: 15px;
-      font-size: 1.2rem;
-      width: 24px;
-      text-align: center;
-    }
-    
-    .social-links {
-      display: flex;
-      gap: 15px;
-      margin-top: 20px;
-    }
-    
-    .social-links a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 40px;
-      height: 40px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 50%;
-      color: white;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-    
-    .social-links a:hover {
-      background: var(--cta);
-      transform: translateY(-3px);
-    }
-    
-    .footer-bottom {
-      text-align: center;
-      padding-top: 30px;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    /* Floating Buttons - Only WhatsApp */
-    .float-btn { 
-      position: fixed; 
-      bottom: 20px; 
-      right: 20px; 
-      display: flex; 
-      flex-direction: column; 
-      gap: 10px; 
-      z-index: 200; 
-    }
-    
-    .float-btn a { 
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-      width: 50px; 
-      height: 50px; 
-      border-radius: 50%; 
-      color: #fff; 
-      font-size: 1.2rem; 
-      box-shadow: 0 4px 20px rgba(0,0,0,0.4); 
-      transition: all 0.3s ease;
-      text-decoration: none;
-    }
-    
-    .whatsapp { background: #25D366; }
-    
-    .float-btn a:hover,
-    .float-btn a:focus { 
-      transform: scale(1.1) translateY(-3px);
-      opacity: 0.9; 
-    }
-    
-    .float-btn .top { 
-      background: var(--cta); 
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      header {
-        padding: 1rem;
-        flex-wrap: wrap;
-        gap: 1rem;
-      }
-      
-      nav {
-        gap: 10px;
-      }
-      
-      .hero {
-        margin-top: 120px;
-        padding: 0 1rem;
-      }
-      
-      section {
-        padding: 3rem 1rem;
-      }
-      
-      .cards-container {
-        grid-template-columns: 1fr;
-      }
-      
-      .footer-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-      }
-      
-      .float-btn {
-        bottom: 10px;
-        right: 10px;
-      }
-    }
-
-    /* Animation Keyframes */
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    
-    .fade-in {
-      animation: fadeInUp 0.8s ease forwards;
     }
   </style>
 </head>
@@ -661,32 +248,30 @@
   <header>
     <div class="header-left">
       <a href="index.html" class="logo-link" aria-label="Code Cortex - Return to home page">
-        <img src="code_logo.png" alt="Code Cortex - AI & Machine Learning Solutions Pakistan" class="logo-img" width="55" height="55" />
+        <img src="code_logo.png" alt="Code Cortex - AI & Machine Learning Solutions" class="logo-img" width="55" height="55" />
         <h1>Code Cortex</h1>
       </a>
     </div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="index.html#services">Services</a>
-      <a href="index.html#about">About</a>
-      <a href="index.html#contact">Contact</a>
-      <button class="back-btn" onclick="window.location.href='index.html'" aria-label="Back to homepage">
-        ? Back to Home
-      </button>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="ai-hero">
     <h1 class="fade-in">AI & Machine Learning Solutions</h1>
     <p class="fade-in">Transform your business with intelligent AI-driven applications, predictive analytics, and automation solutions that drive innovation and optimize operations.</p>
     
     <div class="ai-features fade-in">
-      <span class="ai-feature">?? Intelligent Automation</span>
-      <span class="ai-feature">?? Predictive Analytics</span>
-      <span class="ai-feature">?? Smart Chatbots</span>
-      <span class="ai-feature">?? Computer Vision</span>
-      <span class="ai-feature">?? Data Insights</span>
+      <span class="ai-feature">🤖 Intelligent Automation</span>
+      <span class="ai-feature">📊 Predictive Analytics</span>
+      <span class="ai-feature">💬 Smart Chatbots</span>
+      <span class="ai-feature">👁️ Computer Vision</span>
+      <span class="ai-feature">📈 Data Insights</span>
     </div>
   </section>
 
@@ -694,41 +279,86 @@
   <section id="services-section">
     <h2>Our AI & Machine Learning Expertise</h2>
     <div class="cards-container">
-      <div class="card" data-aos="fade-up" data-aos-delay="100">
-        <i class="fas fa-robot" aria-hidden="true"></i>
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-robot"></i>
         <h3>AI-Powered Chatbots</h3>
         <p>Intelligent conversational AI agents for customer service, sales, and support. Natural language processing with context-aware responses and seamless human handoff capabilities.</p>
       </div>
       
-      <div class="card" data-aos="fade-up" data-aos-delay="200">
-        <i class="fas fa-chart-line" aria-hidden="true"></i>
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-chart-line"></i>
         <h3>Predictive Analytics</h3>
-        <p>Advanced data analysis and machine learning models to forecast trends, customer behavior, and business outcomes. Make data-driven decisions with confidence.</p>
+        <p>Advanced machine learning models that analyze historical data to forecast trends, customer behavior, and business outcomes with high accuracy.</p>
       </div>
       
-      <div class="card" data-aos="fade-up" data-aos-delay="300">
-        <i class="fas fa-brain" aria-hidden="true"></i>
-        <h3>Machine Learning Models</h3>
-        <p>Custom ML solutions for classification, regression, clustering, and recommendation systems. Tailored algorithms to solve your specific business challenges.</p>
-      </div>
-      
-      <div class="card" data-aos="fade-up" data-aos-delay="400">
-        <i class="fas fa-cogs" aria-hidden="true"></i>
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-cogs"></i>
         <h3>Process Automation</h3>
-        <p>Intelligent automation of repetitive tasks and workflows using AI and RPA. Increase efficiency, reduce errors, and free up human resources for strategic work.</p>
+        <p>Automate repetitive business processes using AI to increase efficiency, reduce errors, and free up human resources for more strategic tasks.</p>
       </div>
       
-      <div class="card" data-aos="fade-up" data-aos-delay="500">
-        <i class="fas fa-eye" aria-hidden="true"></i>
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="400">
+        <i class="fas fa-eye"></i>
         <h3>Computer Vision</h3>
-        <p>Advanced image and video analysis for object detection, facial recognition, quality control, and visual search capabilities.</p>
+        <p>Image and video analysis solutions for quality control, object recognition, facial recognition, and visual search applications.</p>
       </div>
       
-      <div class="card" data-aos="fade-up" data-aos-delay="600">
-        <i class="fas fa-database" aria-hidden="true"></i>
-        <h3>Data Intelligence</h3>
-        <p>Transform raw data into actionable insights with advanced analytics, pattern recognition, and predictive modeling for strategic decision-making.</p>
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="500">
+        <i class="fas fa-brain"></i>
+        <h3>Machine Learning Models</h3>
+        <p>Custom ML model development for recommendation systems, fraud detection, sentiment analysis, and personalized user experiences.</p>
       </div>
+      
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="600">
+        <i class="fas fa-database"></i>
+        <h3>Data Intelligence</h3>
+        <p>Transform raw data into actionable insights with AI-powered data analysis, visualization, and business intelligence solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Use Cases -->
+  <section style="background: var(--panel);">
+    <h2>AI Solutions for Industries</h2>
+    <div class="ai-use-cases">
+      <div class="use-case" data-aos="fade-up">
+        <i class="fas fa-shopping-cart"></i>
+        <h3>Retail & E-commerce</h3>
+        <p>Personalized recommendations, inventory optimization, and customer behavior analysis.</p>
+      </div>
+      
+      <div class="use-case" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-university"></i>
+        <h3>Finance & Banking</h3>
+        <p>Fraud detection, risk assessment, credit scoring, and automated customer service.</p>
+      </div>
+      
+      <div class="use-case" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-heartbeat"></i>
+        <h3>Healthcare</h3>
+        <p>Medical diagnosis assistance, patient monitoring, and treatment recommendation systems.</p>
+      </div>
+      
+      <div class="use-case" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-industry"></i>
+        <h3>Manufacturing</h3>
+        <p>Predictive maintenance, quality control, and supply chain optimization.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section>
+    <h2>Our AI Technology Stack</h2>
+    <div class="ai-tech-stack">
+      <span class="ai-tech-item" data-aos="fade-up"><i class="fab fa-python"></i> Python</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="100"><i class="fas fa-project-diagram"></i> TensorFlow</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="200"><i class="fas fa-brain"></i> PyTorch</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="300"><i class="fab fa-aws"></i> AWS AI</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="400"><i class="fas fa-robot"></i> OpenAI API</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="500"><i class="fas fa-chart-bar"></i> Scikit-learn</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="600"><i class="fas fa-database"></i> Pandas</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="700"><i class="fas fa-chart-line"></i> NumPy</span>
     </div>
   </section>
 
@@ -738,122 +368,122 @@
     <div class="process-steps">
       <div class="process-step" data-aos="fade-up">
         <div class="step-number">1</div>
-        <h3>Problem Analysis</h3>
-        <p>Understand your business challenges and define clear AI objectives and success metrics.</p>
+        <h3>Discovery & Strategy</h3>
+        <p>Understand business needs, define AI solution objectives, and identify relevant data sources.</p>
       </div>
       
       <div class="process-step" data-aos="fade-up" data-aos-delay="100">
         <div class="step-number">2</div>
         <h3>Data Preparation</h3>
-        <p>Collect, clean, and preprocess data for model training with proper feature engineering.</p>
+        <p>Collect, clean, label, and prepare data for model training and validation.</p>
       </div>
       
       <div class="process-step" data-aos="fade-up" data-aos-delay="200">
         <div class="step-number">3</div>
         <h3>Model Development</h3>
-        <p>Build, train, and validate machine learning models using appropriate algorithms and techniques.</p>
+        <p>Build, train, validate, and optimize machine learning models for specific use cases.</p>
       </div>
       
       <div class="process-step" data-aos="fade-up" data-aos-delay="300">
         <div class="step-number">4</div>
         <h3>Deployment & Monitoring</h3>
-        <p>Deploy models to production environment and continuously monitor performance and accuracy.</p>
+        <p>Integrate AI solution, deploy to production, and provide ongoing monitoring and maintenance.</p>
       </div>
     </div>
   </section>
 
   <!-- CTA Section -->
   <section>
-    <div class="cta-section" data-aos="fade-up">
+    <div class="ai-cta" data-aos="fade-up">
       <h3>Ready to Transform Your Business with AI?</h3>
       <p>Let's build intelligent solutions that drive growth, efficiency, and innovation for your organization.</p>
-      <button class="cta-button" onclick="window.location.href='index.html#contact'">
-        Start Your AI Journey
-      </button>
+      <a href="contact.html" class="cta-button">Start Your AI Journey</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer data-aos="fade-up">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-column">
-          <h3>Code Cortex</h3>
-          <p>Building innovative digital solutions that drive business growth and transform user experiences.</p>
-          <div class="social-links">
-            <a href="https://www.facebook.com/codecortex" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/codecortex" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/company/codecortex" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/codecortexdigital" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>Code Cortex</h3>
+        <p>Building innovative digital solutions that drive business growth and transform user experiences.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/codecortex" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/codecortex" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/codecortex" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/codecortexdigital" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul class="footer-links">
+          <li><a href="web-development.html">Web Development</a></li>
+          <li><a href="mobile-apps.html">Mobile Apps</a></li>
+          <li><a href="ai-solutions.html">AI Solutions</a></li>
+          <li><a href="maintenance.html">Maintenance & Support</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Information</h3>
+        <div class="contact-method">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <p>Attock, Punjab, Pakistan</p>
           </div>
         </div>
-        <div class="footer-column">
-          <h3>Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#about">About Us</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-          </ul>
+        <div class="contact-method">
+          <i class="fas fa-phone"></i>
+          <div>
+            <p>+92-315-722-7688</p>
+          </div>
         </div>
-        <div class="footer-column">
-          <h3>Services</h3>
-          <ul class="footer-links">
-            <li><a href="web-development.html">Web Development</a></li>
-            <li><a href="mobile-apps.html">Mobile Apps</a></li>
-            <li><a href="ai-solutions.html">AI Solutions</a></li>
-            <li><a href="maintenance.html">Maintenance & Support</a></li>
-          </ul>
+        <div class="contact-method">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <p>info@codecortexdigital.com</p>
+          </div>
         </div>
-        <div class="footer-column">
-          <h3>Contact Information</h3>
-          <div class="contact-method">
-            <i class="fas fa-map-marker-alt"></i>
-            <div>
-              <p>Attock, Punjab, Pakistan</p>
-            </div>
-          </div>
-          <div class="contact-method">
-            <i class="fas fa-phone"></i>
-            <div>
-              <p>+92-315-722-7688</p>
-            </div>
-          </div>
-          <div class="contact-method">
-            <i class="fas fa-envelope"></i>
-            <div>
-              <p>info@codecortexdigital.com</p>
-            </div>
-          </div>
-          <div class="contact-method">
-            <i class="fas fa-clock"></i>
-            <div>
-              <p>Monday - Saturday: 9AM - 6PM</p>
-            </div>
+        <div class="contact-method">
+          <i class="fas fa-clock"></i>
+          <div>
+            <p>Monday - Saturday: 9AM - 6PM</p>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Code Cortex (Pvt.) Ltd. | All Rights Reserved</p>
-      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Code Cortex (Pvt.) Ltd. | All Rights Reserved</p>
     </div>
   </footer>
 
-  <!-- Floating Buttons - Only WhatsApp -->
+  <!-- Floating Buttons -->
   <div class="float-btn">
-    <a href="https://wa.me/923157227688" target="_blank" rel="noopener noreferrer" class="whatsapp" aria-label="Contact us on WhatsApp">
-      <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    <a href="https://wa.me/923157227688" target="_blank" class="whatsapp">
+      <i class="fab fa-whatsapp"></i>
     </a>
-    <a href="#hero" class="top" aria-label="Scroll to top">
-      <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    <a href="#top" class="top">
+      <i class="fas fa-arrow-up"></i>
     </a>
   </div>
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle">
+    <i class="fas fa-adjust"></i>
+  </button>
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
-    // Initialize AOS
     document.addEventListener('DOMContentLoaded', function() {
       AOS.init({
         once: true,
@@ -861,31 +491,527 @@
         offset: 100
       });
 
-      // Add fade-in animation to elements
-      const fadeElements = document.querySelectorAll('.fade-in');
-      fadeElements.forEach((el, index) => {
-        el.style.animationDelay = `${index * 0.2}s`;
+      // Theme toggle
+      const themeBtn = document.getElementById('themeToggle');
+      const savedTheme = localStorage.getItem('theme') || 'dark';
+      
+      document.body.setAttribute('data-theme', savedTheme);
+      
+      themeBtn.addEventListener('click', () => {
+        const current = document.body.getAttribute('data-theme');
+        const newTheme = current === 'dark' ? 'light' : 'dark';
+        document.body.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      });
+    });
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>AI & Machine Learning Solutions Pakistan | Code Cortex - AI Development</title>
+  <meta name="description" content="Professional AI and Machine Learning solutions in Pakistan. Code Cortex builds intelligent systems, predictive analytics, chatbots, and automation solutions for businesses.">
+  <meta name="keywords" content="AI solutions Pakistan, machine learning development, artificial intelligence, predictive analytics, AI chatbots, automation solutions, data science Pakistan">
+  <meta name="author" content="Code Cortex (SMC-Pvt.) Ltd.">
+  <link rel="canonical" href="https://codecortexdigital.github.io/com/ai-solutions.html">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="AI & Machine Learning Solutions Pakistan | Code Cortex - AI Development">
+  <meta property="og:description" content="Professional AI and Machine Learning solutions including predictive analytics, chatbots, and automation for businesses in Pakistan.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://codecortexdigital.github.io/com/ai-solutions.html">
+  <meta property="og:image" content="https://codecortexdigital.github.io/com/code_logo.png">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI & Machine Learning Solutions | Code Cortex">
+  <meta name="twitter:description" content="AI development, machine learning models, and intelligent automation solutions.">
+  
+  <!-- Load CSS Files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="code_logo.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="code_logo.png">
+
+  <style>
+    /* AI Solutions-specific styles */
+    .ai-hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 80vh;
+      background: linear-gradient(135deg, var(--bg) 0%, #1a1c23 100%);
+      position: relative;
+      padding: 0 2rem;
+      margin-top: 80px;
+      overflow: hidden;
+    }
+    
+    .ai-hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        radial-gradient(circle at 20% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(123, 97, 255, 0.1) 0%, transparent 50%);
+      animation: pulse 8s ease-in-out infinite;
+    }
+    
+    .ai-hero h1 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      background: linear-gradient(90deg, var(--ai-primary), var(--ai-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .ai-hero p {
+      font-size: clamp(1.1rem, 2vw, 1.3rem);
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+      max-width: 700px;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .ai-features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .ai-feature {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    
+    .ai-feature:hover {
+      transform: translateY(-3px);
+      background: rgba(0, 212, 255, 0.1);
+      border-color: var(--ai-primary);
+    }
+
+    /* AI Cards */
+    .ai-card {
+      background: var(--panel);
+      padding: 2.5rem 2rem;
+      border-radius: 15px;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .ai-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--ai-primary), var(--ai-secondary));
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    
+    .ai-card:hover::before {
+      transform: scaleX(1);
+    }
+    
+    .ai-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    }
+    
+    .ai-card i {
+      font-size: 3rem;
+      color: var(--ai-primary);
+      margin-bottom: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    
+    .ai-card:hover i {
+      transform: scale(1.2) rotate(5deg);
+      color: var(--ai-secondary);
+    }
+    
+    .ai-card h3 {
+      color: var(--ai-primary);
+      margin-bottom: 1rem;
+    }
+
+    /* Tech Stack */
+    .ai-tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    
+    .ai-tech-item {
+      background: var(--panel);
+      padding: 12px 24px;
+      border-radius: 25px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .ai-tech-item:hover {
+      transform: translateY(-3px);
+      background: var(--ai-primary);
+      color: white;
+    }
+
+    /* Process Steps */
+    .process-step .step-number {
+      background: var(--ai-primary);
+    }
+
+    /* CTA Section */
+    .ai-cta {
+      background: linear-gradient(135deg, var(--ai-primary) 0%, var(--ai-secondary) 100%);
+      color: white;
+      padding: 4rem 2rem;
+      border-radius: 20px;
+      margin: 2rem auto;
+      max-width: 800px;
+    }
+    
+    .ai-cta h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .ai-cta .cta-button {
+      background: white;
+      color: var(--ai-primary);
+    }
+
+    /* AI Use Cases */
+    .ai-use-cases {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .use-case {
+      text-align: center;
+      padding: 2rem;
+      background: var(--panel);
+      border-radius: 15px;
+      transition: all 0.3s ease;
+    }
+    
+    .use-case:hover {
+      transform: translateY(-5px);
+      background: rgba(0, 212, 255, 0.1);
+    }
+    
+    .use-case i {
+      font-size: 2.5rem;
+      color: var(--ai-primary);
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body data-theme="dark">
+
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <a href="index.html" class="logo-link" aria-label="Code Cortex - Return to home page">
+        <img src="code_logo.png" alt="Code Cortex - AI & Machine Learning Solutions" class="logo-img" width="55" height="55" />
+        <h1>Code Cortex</h1>
+      </a>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="ai-hero">
+    <h1 class="fade-in">AI & Machine Learning Solutions</h1>
+    <p class="fade-in">Transform your business with intelligent AI-driven applications, predictive analytics, and automation solutions that drive innovation and optimize operations.</p>
+    
+    <div class="ai-features fade-in">
+      <span class="ai-feature">🤖 Intelligent Automation</span>
+      <span class="ai-feature">📊 Predictive Analytics</span>
+      <span class="ai-feature">💬 Smart Chatbots</span>
+      <span class="ai-feature">👁️ Computer Vision</span>
+      <span class="ai-feature">📈 Data Insights</span>
+    </div>
+  </section>
+
+  <!-- AI Services Section -->
+  <section id="services-section">
+    <h2>Our AI & Machine Learning Expertise</h2>
+    <div class="cards-container">
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-robot"></i>
+        <h3>AI-Powered Chatbots</h3>
+        <p>Intelligent conversational AI agents for customer service, sales, and support. Natural language processing with context-aware responses and seamless human handoff capabilities.</p>
+      </div>
+      
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-chart-line"></i>
+        <h3>Predictive Analytics</h3>
+        <p>Advanced machine learning models that analyze historical data to forecast trends, customer behavior, and business outcomes with high accuracy.</p>
+      </div>
+      
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-cogs"></i>
+        <h3>Process Automation</h3>
+        <p>Automate repetitive business processes using AI to increase efficiency, reduce errors, and free up human resources for more strategic tasks.</p>
+      </div>
+      
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="400">
+        <i class="fas fa-eye"></i>
+        <h3>Computer Vision</h3>
+        <p>Image and video analysis solutions for quality control, object recognition, facial recognition, and visual search applications.</p>
+      </div>
+      
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="500">
+        <i class="fas fa-brain"></i>
+        <h3>Machine Learning Models</h3>
+        <p>Custom ML model development for recommendation systems, fraud detection, sentiment analysis, and personalized user experiences.</p>
+      </div>
+      
+      <div class="ai-card" data-aos="fade-up" data-aos-delay="600">
+        <i class="fas fa-database"></i>
+        <h3>Data Intelligence</h3>
+        <p>Transform raw data into actionable insights with AI-powered data analysis, visualization, and business intelligence solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Use Cases -->
+  <section style="background: var(--panel);">
+    <h2>AI Solutions for Industries</h2>
+    <div class="ai-use-cases">
+      <div class="use-case" data-aos="fade-up">
+        <i class="fas fa-shopping-cart"></i>
+        <h3>Retail & E-commerce</h3>
+        <p>Personalized recommendations, inventory optimization, and customer behavior analysis.</p>
+      </div>
+      
+      <div class="use-case" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-university"></i>
+        <h3>Finance & Banking</h3>
+        <p>Fraud detection, risk assessment, credit scoring, and automated customer service.</p>
+      </div>
+      
+      <div class="use-case" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-heartbeat"></i>
+        <h3>Healthcare</h3>
+        <p>Medical diagnosis assistance, patient monitoring, and treatment recommendation systems.</p>
+      </div>
+      
+      <div class="use-case" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-industry"></i>
+        <h3>Manufacturing</h3>
+        <p>Predictive maintenance, quality control, and supply chain optimization.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section>
+    <h2>Our AI Technology Stack</h2>
+    <div class="ai-tech-stack">
+      <span class="ai-tech-item" data-aos="fade-up"><i class="fab fa-python"></i> Python</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="100"><i class="fas fa-project-diagram"></i> TensorFlow</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="200"><i class="fas fa-brain"></i> PyTorch</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="300"><i class="fab fa-aws"></i> AWS AI</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="400"><i class="fas fa-robot"></i> OpenAI API</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="500"><i class="fas fa-chart-bar"></i> Scikit-learn</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="600"><i class="fas fa-database"></i> Pandas</span>
+      <span class="ai-tech-item" data-aos="fade-up" data-aos-delay="700"><i class="fas fa-chart-line"></i> NumPy</span>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section style="background: var(--panel);">
+    <h2>Our AI Development Process</h2>
+    <div class="process-steps">
+      <div class="process-step" data-aos="fade-up">
+        <div class="step-number">1</div>
+        <h3>Discovery & Strategy</h3>
+        <p>Understand business needs, define AI solution objectives, and identify relevant data sources.</p>
+      </div>
+      
+      <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+        <div class="step-number">2</div>
+        <h3>Data Preparation</h3>
+        <p>Collect, clean, label, and prepare data for model training and validation.</p>
+      </div>
+      
+      <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+        <div class="step-number">3</div>
+        <h3>Model Development</h3>
+        <p>Build, train, validate, and optimize machine learning models for specific use cases.</p>
+      </div>
+      
+      <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+        <div class="step-number">4</div>
+        <h3>Deployment & Monitoring</h3>
+        <p>Integrate AI solution, deploy to production, and provide ongoing monitoring and maintenance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section>
+    <div class="ai-cta" data-aos="fade-up">
+      <h3>Ready to Transform Your Business with AI?</h3>
+      <p>Let's build intelligent solutions that drive growth, efficiency, and innovation for your organization.</p>
+      <a href="contact.html" class="cta-button">Start Your AI Journey</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>Code Cortex</h3>
+        <p>Building innovative digital solutions that drive business growth and transform user experiences.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/codecortex" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/codecortex" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/codecortex" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/codecortexdigital" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul class="footer-links">
+          <li><a href="web-development.html">Web Development</a></li>
+          <li><a href="mobile-apps.html">Mobile Apps</a></li>
+          <li><a href="ai-solutions.html">AI Solutions</a></li>
+          <li><a href="maintenance.html">Maintenance & Support</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Information</h3>
+        <div class="contact-method">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <p>Attock, Punjab, Pakistan</p>
+          </div>
+        </div>
+        <div class="contact-method">
+          <i class="fas fa-phone"></i>
+          <div>
+            <p>+92-315-722-7688</p>
+          </div>
+        </div>
+        <div class="contact-method">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <p>info@codecortexdigital.com</p>
+          </div>
+        </div>
+        <div class="contact-method">
+          <i class="fas fa-clock"></i>
+          <div>
+            <p>Monday - Saturday: 9AM - 6PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Code Cortex (Pvt.) Ltd. | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <div class="float-btn">
+    <a href="https://wa.me/923157227688" target="_blank" class="whatsapp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="#top" class="top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle">
+    <i class="fas fa-adjust"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+        once: true,
+        duration: 800,
+        offset: 100
       });
 
-      // Header scroll behavior
-      let prevScroll = window.scrollY;
-      const header = document.querySelector('header');
-
-      window.addEventListener('scroll', () => {
-        if (window.innerWidth > 768) {
-          const currentScroll = window.scrollY;
-          if (currentScroll > prevScroll && currentScroll > 100) {
-            header.style.top = '-100px';
-          } else {
-            header.style.top = '0';
-          }
-          prevScroll = currentScroll;
-        }
+      // Theme toggle
+      const themeBtn = document.getElementById('themeToggle');
+      const savedTheme = localStorage.getItem('theme') || 'dark';
+      
+      document.body.setAttribute('data-theme', savedTheme);
+      
+      themeBtn.addEventListener('click', () => {
+        const current = document.body.getAttribute('data-theme');
+        const newTheme = current === 'dark' ? 'light' : 'dark';
+        document.body.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
       });
     });
   </script>
 </body>
 </html>
-
-
-
