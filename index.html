@@ -22,18 +22,18 @@
   <meta property="og:url" content="https://www.codecortexdigital.com/">
   <meta property="og:title" content="Code Cortex | Software Development Company Pakistan">
   <meta property="og:description" content="Enterprise software solutions, web & mobile development, AI integration, and digital transformation services.">
-  <meta property="og:image" content="https://www.codecortexdigital.com/assets/og-image.png">
+  <meta property="og:image" content="https://www.codecortexdigital.com/code_logo.png">
   
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://www.codecortexdigital.com/">
   <meta property="twitter:title" content="Code Cortex | Software Development Company Pakistan">
   <meta property="twitter:description" content="Enterprise software solutions, web & mobile development, AI integration, and digital transformation services.">
-  <meta property="twitter:image" content="https://www.codecortexdigital.com/assets/og-image.png">
+  <meta property="twitter:image" content="https://www.codecortexdigital.com/code_logo.png">
   
   <!-- Icons -->
-  <link rel="icon" type="image/png" href="./assets/code_logo.png">
-  <link rel="apple-touch-icon" href="./assets/code_logo.png">
+  <link rel="icon" type="image/png" href="code_logo.png">
+  <link rel="apple-touch-icon" href="code_logo.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   
   <!-- Google Fonts -->
@@ -48,11 +48,12 @@
     "@type": "Organization",
     "name": "Code Cortex (SMC-Pvt.) Ltd.",
     "url": "https://www.codecortexdigital.com/",
-    "logo": "https://www.codecortexdigital.com/assets/code_logo.png",
+    "logo": "https://www.codecortexdigital.com/code_logo.png",
     "description": "Professional software development company providing web, mobile, and AI solutions",
     "address": {
       "@type": "PostalAddress",
-      "addressCountry": "Pakistan"
+      "addressCountry": "Pakistan",
+      "addressLocality": "Attock"
     },
     "contactPoint": [{
       "@type": "ContactPoint",
@@ -711,7 +712,8 @@
 
 <header>
   <div class="header-left">
-    <img src="./assets/code_logo.png" alt="Code Cortex Logo" class="logo">
+    <!-- Logo path fixed for same directory -->
+    <img src="code_logo.png" alt="Code Cortex Logo" class="logo">
     <div class="company-name">CODE CORTEX</div>
   </div>
   
@@ -910,44 +912,6 @@
       <p>Work with cutting-edge technologies and solve challenging problems</p>
     </div>
     
-    <div class="careers-list">
-      <h3 style="margin-bottom: 2rem; color: var(--text-light);">Current Openings</h3>
-      
-      <div class="job-item">
-        <div class="job-info">
-          <h4>Senior Full Stack Developer</h4>
-          <p style="color: var(--text-muted); margin-top: 0.5rem;">
-            <i class="fas fa-code" style="margin-right: 0.5rem;"></i>
-            React, Node.js, PostgreSQL, AWS
-            </span>
-        </div>
-        </button>
-      </div>
-      
-      <div class="job-item">
-        <div class="job-info">
-          <h4>DevOps Engineer</h4>
-          <p style="color: var(--text-muted); margin-top: 0.5rem;">
-            <i class="fas fa-server" style="margin-right: 0.5rem;"></i>
-            Kubernetes, Docker, CI/CD, Cloud Infrastructure
-          </p>
-          
-          </span>
-        </div>
-      </div>
-      
-      <div class="job-item">
-        <div class="job-info">
-          <h4>UI/UX Designer</h4>
-          <p style="color: var(--text-muted); margin-top: 0.5rem;">
-            <i class="fas fa-palette" style="margin-right: 0.5rem;"></i>
-            Figma, Adobe Suite, Prototyping, User Research
-          </p>
-          
-        </div>
-        </button>
-      </div>
-    </div>
     
     <div style="text-align: center; margin-top: 3rem;">
       <p style="color: var(--text-muted); max-width: 700px; margin: 0 auto 2rem;">
@@ -955,7 +919,7 @@
         Send your resume to <strong>jobs@codecortexdigital.com</strong>
       </p>
       <button onclick="openApplicationForm()" class="btn btn-outline" style="margin: 0 0.5rem;">
-        <i class="fas fa-file-alt"></i> Apply for available Positions
+        <i class="fas fa-file-alt"></i> Apply for Available Positions
       </button>
     </div>
   </section>
@@ -1271,20 +1235,6 @@
       
       // In a real application, you would send this data to your server
       console.log('Form submitted:', data);
-      
-      // Example of sending to your PHP file
-      // fetch('send_mail.php', {
-      //   method: 'POST',
-      //   body: formData
-      // })
-      // .then(response => response.json())
-      // .then(data => {
-      //   showNotification('Thank you! Your message has been sent.');
-      //   contactForm.reset();
-      // })
-      // .catch(error => {
-      //   showNotification('Error sending message. Please try again.');
-      // });
     });
   }
   
