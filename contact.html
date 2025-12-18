@@ -1,106 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- ================================
+     CODE CORTEX – GLOBAL HEADER
+================================ -->
 
-  <!-- SEO -->
-  <title>Contact Us | Code Cortex</title>
-  <meta name="description" content="Contact Code Cortex for web, mobile, and AI solutions. Get a free consultation today." />
-  <meta name="keywords" content="contact Code Cortex, software house contact, IT services Pakistan" />
-  <meta name="author" content="Code Cortex (Pvt.) Ltd." />
+<header id="mainHeader">
+  <div class="header-left">
+    <a href="/com/index.html" class="logo-link" aria-label="Code Cortex Home">
+      <img
+        src="/com/assets/code_logo.png"
+        alt="Code Cortex - Software House Pakistan"
+        class="logo-img"
+        width="48"
+        height="48"
+      />
+      <h1>Code Cortex</h1>
+    </a>
+  </div>
 
-  <!-- STYLES -->
-  <link rel="stylesheet" href="/com/css/theme.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="icon" href="/com/assets/code_logo.png" />
-</head>
+  <nav class="main-nav" aria-label="Main Navigation">
+    <button
+      id="navToggle"
+      class="nav-toggle"
+      aria-expanded="false"
+      aria-controls="navMenu"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
 
-<body data-theme="dark">
+    <div class="nav-links" id="navMenu">
+      <a href="/com/index.html">Home</a>
+      <a href="/com/services.html">Services</a>
+      <a href="/com/about.html">About</a>
+      <a href="/com/careers.html">Careers</a>
+      <a href="/com/contact.html">Contact</a>
+    </div>
+  </nav>
 
-  <!-- Skip link -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-
-  <!-- HEADER -->
-  <div id="site-header"></div>
-
-  <!-- MAIN CONTENT -->
-  <main id="main-content">
-
-    <!-- HERO -->
-    <section class="hero">
-      <h2>Contact Us</h2>
-      <p>
-        Let’s discuss your project and turn your ideas into reality.
-      </p>
-    </section>
-
-    <!-- CONTACT OPTIONS -->
-    <section>
-      <h2>Get in Touch</h2>
-
-      <div class="cards-container">
-
-        <!-- EMAIL -->
-        <div class="card">
-          <i class="fas fa-envelope"></i>
-          <h3>Email Us</h3>
-          <p>Send us your project details and we’ll respond quickly.</p>
-          <a
-            href="mailto:info@codecortexdigital.com"
-            class="btn"
-          >
-            info@codecortexdigital.com
-          </a>
-        </div>
-
-        <!-- WHATSAPP -->
-        <div class="card">
-          <i class="fab fa-whatsapp"></i>
-          <h3>WhatsApp</h3>
-          <p>Chat with us directly for fast communication.</p>
-          <a
-            href="https://wa.me/923157227688"
-            target="_blank"
-            class="btn"
-          >
-            Message on WhatsApp
-          </a>
-        </div>
-
-        <!-- PHONE -->
-        <div class="card">
-          <i class="fas fa-phone"></i>
-          <h3>Call Us</h3>
-          <p>Speak directly with our team during business hours.</p>
-          <a
-            href="tel:+923157227688"
-            class="btn"
-          >
-            +92 315 722 7688
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="final-cta">
-      <h2>Need Immediate Assistance?</h2>
-      <p>We’re just a message or call away.</p>
-      <a href="https://wa.me/923157227688" class="btn-large" target="_blank">
-        Contact on WhatsApp
-      </a>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <div id="site-footer"></div>
-
-  <!-- SCRIPTS -->
-  <script src="/com/js/include.js"></script>
-  <script src="/com/js/main.js"></script>
-
-</body>
-</html>
+  <button
+    class="login-btn"
+    onclick="window.location.href='/com/login.html'"
+    aria-label="Admin Login"
+  >
+    Admin Login
+  </button>
+</header>
