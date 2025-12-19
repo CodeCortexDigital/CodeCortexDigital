@@ -113,16 +113,26 @@
         "areaServed": "Global"
       },
       {
-        "@type": "LocalBusiness",
-        "@id": "https://www.codecortexdigital.com/#localbusiness",
-        "name": "Code Cortex - Software Development Company",
-        "image": "https://www.codecortexdigital.com/code_logo.png",
-        "@type": "ProfessionalService",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "Pakistan",
-          "addressLocality": "Attock"
-        },
+  "@type": "ProfessionalService",
+  "@id": "https://www.codecortexdigital.com/#professionalservice",
+  "name": "Code Cortex - Software Development Company",
+  "image": "https://www.codecortexdigital.com/code_logo.png",
+  "url": "https://www.codecortexdigital.com/",
+  "telephone": "+92-315-722-7688",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "Pakistan",
+    "addressLocality": "Attock"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "33.7667",
+    "longitude": "72.3667"
+  },
+  "openingHours": "Mo-Sa 09:00-18:00"
+}
+
         "geo": {
           "@type": "GeoCoordinates",
           "latitude": "33.7667",
@@ -543,44 +553,28 @@
     .portfolio-content {
       padding: 1.5rem;
     }
+ <section id="careers">
+  <div class="section-title">
+    <h2>Careers</h2>
+    <p>We are always looking for talented professionals to join our growing team.</p>
+  </div>
 
-    /* Careers */
-    .careers-list {
-      max-width: 800px;
-      margin: 3rem auto;
-      background: var(--secondary-dark);
-      border-radius: 16px;
-      padding: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
+  <div style="max-width:700px;margin:0 auto;text-align:center;">
+    <p style="color:var(--text-muted);font-size:1.1rem;">
+      Opportunities are available across multiple roles including development,
+      design, engineering, and technology operations.
+    </p>
 
-    .job-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1.5rem 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
+    <a onclick="openApplicationForm()" class="btn btn-outline" style="margin-top:1.5rem;">
+      <i class="fas fa-file-alt"></i> Apply for Available Positions
+    </a>
 
-    .job-item:last-child {
-      border-bottom: none;
-    }
+    <p style="margin-top:1.2rem;color:var(--text-muted);font-size:0.95rem;">
+      Or email your resume at <strong>jobs@codecortexdigital.com</strong>
+    </p>
+  </div>
+</section>
 
-    .job-info h4 {
-      font-size: 1.25rem;
-      margin-bottom: 0.5rem;
-      color: var(--text-light);
-    }
-
-    .job-tag {
-      display: inline-block;
-      background: rgba(59, 130, 246, 0.2);
-      color: #3b82f6;
-      padding: 0.25rem 0.75rem;
-      border-radius: 20px;
-      font-size: 0.875rem;
-      margin-top: 0.5rem;
-    }
 
     /* Contact Section */
     .contact-container {
@@ -1081,32 +1075,27 @@
       </div>
     </div>
   </section>
+<!-- SEO Content Section -->
+<section class="seo-content" id="seo-content">
+  <div class="seo-section">
+    <h2>Leading Software Development Company in Pakistan</h2>
+    <p>
+      Code Cortex is a <strong>leading software development company in Pakistan</strong>
+      delivering secure, scalable web, mobile, and AI solutions for startups,
+      enterprises, and global businesses.
+    </p>
+    <p>
+      Our team follows agile development, global coding standards, and continuous testing
+      to ensure reliable, high-quality software delivery.
+    </p>
+  </div>
+</section>
 
-  <!-- SEO Content Section -->
-  <section class="seo-content" id="seo-content">
-    <div class="seo-section">
-      <h2>Leading Software Development Company in Pakistan</h2>
-      <p>Code Cortex is a premier <strong>software development company in Pakistan</strong> specializing in delivering enterprise-grade solutions for businesses worldwide. With our team of expert developers, designers, and project managers, we transform complex business challenges into innovative digital solutions.</p>
-      
-      <h3>Why Choose Code Cortex for Your Software Development Needs?</h3>
-      <p>As a top-tier <strong>web development company in Pakistan</strong>, we offer several key advantages:</p>
-      <ul style="color: var(--text-muted); margin: 1.5rem 0 1.5rem 2rem; line-height: 1.8;">
-        <li><strong>Expert Technical Team:</strong> Our developers are certified in the latest technologies including React, Node.js, Python, and cloud platforms</li>
-        <li><strong>Cost-Effective Solutions:</strong> Get premium quality software development at competitive Pakistan-based rates</li>
-        <li><strong>Global Delivery Standards:</strong> We follow international development methodologies and best practices</li>
-        <li><strong>Full-Stack Expertise:</strong> From frontend interfaces to backend systems and database management</li>
-        <li><strong>24/7 Support:</strong> Round-the-clock maintenance and support for all our solutions</li>
-      </ul>
-      
-      <h3>Our Development Process</h3>
-      <p>We follow a structured <strong>software development process</strong> that ensures quality, transparency, and timely delivery:</p>
-      <ol style="color: var(--text-muted); margin: 1.5rem 0 1.5rem 2rem; line-height: 1.8;">
-        <li><strong>Discovery & Planning:</strong> Understanding your business objectives and technical requirements</li>
-        <li><strong>UI/UX Design:</strong> Creating intuitive user interfaces and engaging user experiences</li>
-        <li><strong>Development & Testing:</strong> Agile development with continuous testing and quality assurance</li>
-        <li><strong>Deployment:</strong> Smooth deployment to production environments with minimal downtime</li>
-        <li><strong>Maintenance & Support:</strong> Ongoing support, updates, and performance optimization</li>
-      </ol>
+      <p style="margin-top:1.5rem;">
+Our team follows agile development, global coding standards, and continuous testing
+to ensure reliable, high-quality software delivery.
+</p>
+
     </div>
   </section>
 
@@ -1196,20 +1185,21 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
 
   <!-- Careers Section -->
   <section id="careers">
-    <div class="section-title">
-      <h2>Join Our Team</h2>
-      <p>Work with cutting-edge technologies and solve challenging problems</p>
-    </div>
-    
-    
-      <button onclick="openApplicationForm()" class="btn btn-outline" style="margin: 0 0.5rem;">
-        <i class="fas fa-file-alt"></i> Apply for Available Positions
-      </button>
-    </div>
+  <div class="section-title">
+    <h2>Join Our Team</h2>
+    <p>Work with cutting-edge technologies and solve challenging problems</p>
+  </div>
+
+  <div class="careers-list"></div>
+
+  <p style="text-align:center;color:var(--text-muted);margin-top:2rem;">
+    Apply online or send your CV to <strong>jobs@codecortexdigital.com</strong>
+  </p>
+</section>
   </section>
 
   <!-- Contact Section -->
@@ -1595,25 +1585,13 @@
     
     const jobs = [
       {
-        title: "Senior Full-Stack Developer",
-        location: "Remote / Attock, Pakistan",
-        type: "Full-time"
-      },
-      {
-        title: "React Native Mobile Developer",
-        location: "Remote",
-        type: "Full-time"
-      },
-      {
-        title: "DevOps Engineer",
+        title: "Positions Available",
         location: "Attock, Pakistan",
         type: "Full-time"
       },
-      {
-        title: "UI/UX Designer",
-        location: "Remote",
-        type: "Contract"
-      }
+     
+     
+      
     ];
     
     careersList.innerHTML = jobs.map(job => `
@@ -1633,3 +1611,4 @@
 
 </body>
 </html>
+
